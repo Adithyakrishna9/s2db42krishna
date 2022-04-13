@@ -86,25 +86,25 @@ async function recreateDB() {
 // Delete everything in Heroine
   await Heroine.deleteMany();
 
-  let instance5 = new Heroine({ heroine_name: "Nissan Versa", heroine_color: 'Silver', heroine_cost: 16205 });
+  let instance5 = new Heroine({ heroine_name: "Kajol", heroine_color: 'Brown', heroine_cost: 16205 });
   instance5.save(function (err, doc) {
     if (err) return console.error(err);
     console.log("First object saved in Heroine")
   });
 
-  let instance6 = new Heroine({ heroine_name: "Chevrolet Spark", heroine_color: 'Nitro Yellow', heroine_cost: 15207 });
+  let instance6 = new Heroine({ heroine_name: "Tamanna", heroine_color: 'White', heroine_cost: 15207 });
   instance6.save(function (err, doc) {
     if (err) return console.error(err);
     console.log("Second object saved in Heroine")
   });
 
-  let instance7 = new Heroine({ heroine_name: "Hyundai Elantra", heroine_color: 'Grey', heroine_cost: 21434 });
+  let instance7 = new Heroine({ heroine_name: "Jeniffer", heroine_color: 'White', heroine_cost: 21434 });
   instance7.save(function (err, doc) {
     if (err) return console.error(err);
     console.log("Third object saved in Heroine")
   });
 
-  let instance8 = new Heroine({ heroine_name: "BMW X3", heroine_color: 'Tanzanite Blue II Metallic', heroine_cost: 41950 });
+  let instance8 = new Heroine({ heroine_name: "Aniston", heroine_color: 'Black', heroine_cost: 41950 });
   instance8.save(function (err, doc) {
     if (err) return console.error(err);
     console.log("Fourth object saved in Heroine")
