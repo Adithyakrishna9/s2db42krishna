@@ -19,12 +19,12 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjaichand/s2db42krishna.git"
+    "url": "git+https://github.com/Adithyakrishna9/s2db42krishna.git"
   },
   "author": "Adithya Krishna",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mjaichand/s2db42krishna/issues"
+    "url": "https://github.com/Adithyakrishna9/s2db42krishna/issues"
   },
-  "homepage": "https://github.com/mjaichand/s2db42krishna#readme"
+  "homepage": "https://github.com/Adithyakrishna9/s2db42krishna#readme"
 }
