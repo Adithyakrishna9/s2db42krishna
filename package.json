@@ -11,7 +11,7 @@
     "express": "^4.17.3",
     "http-errors": "^2.0.0",
     "mongodb": "^4.5.0",
-    "mongoose": "^6.2.10",
+    "mongoose": "^6.3.0",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/Adithyakrishna9/s2db42krishna/issues"
   },
-  "homepage": "https://github.com/Adithyakrishna9/s2db42krishna#readme"
+  "homepage": "https://github.com/Adithyakrishna9/s2db42krishna#readme",
+  "devDependencies": {}
 }
