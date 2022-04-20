@@ -103,7 +103,7 @@ exports.heroine_view_one_Page = async function (req, res) {
     console.log("single view for id " + req.query.id)
     try {
         result = await Heroine.findById(req.query.id)
-        res.render('heroinedetail',
+        res.render('heroinesdetail',
             { title: 'Heroine Detail', toShow: result });
     }
     catch (err) {
@@ -118,7 +118,7 @@ exports.heroine_view_one_Page = async function (req, res) {
 exports.heroine_create_Page = function (req, res) {
     console.log("create view")
     try {
-        res.render('heroinecreate', { title: 'Heroine Create' });
+        res.render('heroinescreate', { title: 'Heroine Create' });
     }
     catch (err) {
         res.status(500)
@@ -131,7 +131,7 @@ exports.heroine_update_Page = async function (req, res) {
     console.log("update view for item " + req.query.id)
     try {
         let result = await Heroine.findById(req.query.id)
-        res.render('heroineupdate', { title: 'Heroine Update', toShow: result });
+        res.render('heroinesupdate', { title: 'Heroine Update', toShow: result });
     }
     catch (err) {
         res.status(500)
@@ -144,7 +144,7 @@ exports.heroine_delete_Page = async function (req, res) {
     console.log("Delete view for id " + req.query.id)
     try {
         result = await Heroine.findById(req.query.id)
-        res.render('heroinedelete', {title: 'Heroine Delete', toShow: result});
+        res.render('heroinesdelete', {title: 'Heroine Delete', toShow: result});
     }
     catch (err) {
         res.status(500)
