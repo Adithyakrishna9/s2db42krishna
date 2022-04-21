@@ -6,7 +6,7 @@ block content
         h2 No instance to delete
     else
         - let heroineid = toShow._id
-        - let heroinebrand = toShow.heroine_brand
+        - let heroinename = toShow.heroine_name
         - let heroinecost = toShow.heroine_cost
         - let heroinecolor = toShow.heroine_color
         - let actionid = "/resource/heroines/" + heroineid
@@ -17,7 +17,7 @@ block content
                 div #{heroineid}
             div.row
                 div(class='heroineAttr mr-3') Heroine Brand is:
-                div #{heroinebrand}
+                div #{heroinename}
             div.row
                 div(class='heroineAttr mr-3') Heroine Color is:
                 div #{heroinecolor}
