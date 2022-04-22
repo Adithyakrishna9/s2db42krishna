@@ -9,10 +9,12 @@
     "cookie-parser": "~1.4.4",
     "debug": "^4.3.4",
     "express": "^4.17.3",
+    "express-session": "^1.17.2",
     "http-errors": "^2.0.0",
     "mongodb": "^4.5.0",
     "mongoose": "^6.3.0",
     "morgan": "^1.10.0",
+    "passport": "^0.5.2",
     "pug": "^3.0.2"
   },
   "description": "Created for Assignment 11",
@@ -26,6 +28,5 @@
   "bugs": {
     "url": "https://github.com/Adithyakrishna9/s2db42krishna/issues"
   },
-  "homepage": "https://github.com/Adithyakrishna9/s2db42krishna#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/Adithyakrishna9/s2db42krishna#readme"
 }
